@@ -1,0 +1,27 @@
+@import 'fonts.scss', 'form.scss', 'skills.scss', 'jsblock.scss';
+
+@media (min-width: 620px) {
+  body {
+    width: 660px;
+    height: 754px;
+    margin: 0 auto;
+    background: url('./../img/back.png') repeat;
+  }
+  .container {
+    width: 660px;
+  }
+}
+
+.form,
+.skills,
+.jsblock {
+  font-family: 'Roboto Medium';
+  font-size: 12px;
+  color: #666;
+}
+
+.JSskills {
+  font-family: 'Roboto Black';
+  font-size: 50px;
+  color: #0093d7;
+}

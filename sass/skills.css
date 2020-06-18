@@ -1,0 +1,87 @@
+@media (min-width: 620px) {
+  .skills {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  .skills__title {
+    color: #010101;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-bottom: 6px;
+  }
+  .skills__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .block__item {
+    position: relative;
+    width: 140px;
+    margin: 20px 0px;
+    margin-right: 15px;
+  }
+  .item__skill {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .item__skill + label {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    text-transform: uppercase;
+  }
+  .item__skill + label::before {
+    content: '';
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 3px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .item__skill:checked + label::before {
+    width: 19px;
+    height: 19px;
+    background: #0093d7;
+  }
+  .item__skill:checked + label::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    border: none;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    left: 3px;
+    top: 6px;
+    border-radius: 1px;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .item__skill:hover + label::before {
+    background-color: #0093d7;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+  }
+}
+/*# sourceMappingURL=skills.css.map */

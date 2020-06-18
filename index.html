@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>Тестовая форма</title>
+    <link rel="stylesheet" type="text/css" href="./sass/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="form__photo">
+          <img
+            class="photo__img"
+            src="./img/me.png"
+            width="140"
+            height="140"
+            alt="user__photo"
+          />
+        </div>
+        <div class="form__data">
+          <input
+            class="data__item"
+            type="text"
+            placeholder="имя"
+            value="Дмитрий"
+          />
+          <input
+            class="data__item"
+            type="text"
+            placeholder="дата рождения"
+            value="24 декабря"
+          />
+          <input
+            class="data__item"
+            type="text"
+            placeholder="город"
+            value="Чебоксары"
+          />
+          <input
+            class="data__item"
+            type="text"
+            placeholder="контактные данные"
+            value="79196554019"
+          />
+          <img
+            class="data__img"
+            src="./img/approved.svg"
+            alt="approved"
+            width="184"
+            height="166"
+          />
+        </div>
+      </div>
+      <div class="skills">
+        <p class="skills__title">Навыки</p>
+        <div class="skills__block">
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="html"
+              class="item__skill"
+              name="html5"
+              checked
+            />
+            <label for="html">html5</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="sass"
+              class="item__skill"
+              name="sass"
+              checked
+            />
+            <label for="sass">sass</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="vanilla"
+              class="item__skill"
+              name="vanilla"
+              checked
+            />
+            <label for="vanilla">vanillajs</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="git"
+              class="item__skill"
+              name="git"
+              checked
+            />
+            <label for="git">git</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="css"
+              class="item__skill"
+              name="css"
+              checked
+            />
+            <label for="css">css3</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="less"
+              class="item__skill"
+              name="less"
+              checked
+            />
+            <label for="less">less</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="angular"
+              class="item__skill"
+              name="angular"
+            />
+            <label for="angular">angular</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="foundation"
+              class="item__skill"
+              name="foundation"
+            />
+            <label for="foundation">foundation</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="bem"
+              class="item__skill"
+              name="bem"
+              checked
+            />
+            <label for="bem">БЭМ</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="gulp"
+              class="item__skill"
+              name="gulp"
+              checked
+            />
+            <label for="gulp">gulp</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="jquery"
+              class="item__skill"
+              name="jquery"
+              checked
+            />
+            <label for="jquery">jquery</label>
+          </div>
+          <div class="block__item">
+            <input
+              type="checkbox"
+              id="bootstrap"
+              class="item__skill"
+              name="bootstrap"
+              checked
+            />
+            <label for="bootstrap">bootstrap</label>
+          </div>
+        </div>
+      </div>
+      <div class="jsblock">
+        <div class="js__speed">
+          <div class="rang">
+            <div class="rang-title"></div>
+            <svg class="meter">
+              <circle class="meter-left" r="96" cx="135" cy="142"></circle>
+              <circle class="meter-center" r="96" cx="136" cy="142"></circle>
+              <circle class="meter-right" r="96" cx="138" cy="142"></circle>
+              <polygon
+                class="meter-clock"
+                points="129,145 137,90 145,145"
+              ></polygon>
+              <circle class="meter-circle" r="10" cx="137" cy="145"></circle>
+            </svg>
+            <input
+              class="rang-slider"
+              id="range"
+              type="range"
+              min="0"
+              max="100"
+            />
+          </div>
+        </div>
+        <div class="js__title">
+          Мой уровень владения JavaScript
+          <input
+            class="rang-number"
+            id="show"
+            type="text"
+            value="50%"
+            disabled="disabled"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

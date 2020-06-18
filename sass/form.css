@@ -1,0 +1,47 @@
+@media (min-width: 620px) {
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+    padding: 0 20px;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  .form__photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 80px;
+    overflow: hidden;
+    width: 150px;
+    height: 140px;
+    margin-right: 20px;
+  }
+  .form__data {
+    position: relative;
+  }
+  .data__item {
+    font-size: 12px;
+    line-height: 22px;
+    border: none;
+    color: #666666;
+    border-bottom: 2px solid #333333;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    outline: none;
+  }
+  .data__img {
+    position: absolute;
+    right: -15px;
+    bottom: 10px;
+  }
+}
+/*# sourceMappingURL=form.css.map */
