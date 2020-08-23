@@ -50,6 +50,7 @@
     width: 100%;
     margin-bottom: 32px;
     text-transform: uppercase;
+    outline: none;
   }
   .data__img {
     position: absolute;
@@ -184,6 +185,7 @@
     font-size: 50px;
     font-weight: 900;
     color: #0093d7;
+    background: transparent;
   }
   .rang-slider[type='range'] {
     width: 253px;
